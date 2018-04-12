@@ -4,6 +4,6 @@ node {
     }
 
     stage('Gradle build') {
-        sh "./gradle clean build"
+       buildInfo = rtGradle.run rootDir: ".", buildFile: 'build.gradle', tasks: 'clean build'
     }
 }
