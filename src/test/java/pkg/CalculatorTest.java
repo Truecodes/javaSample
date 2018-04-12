@@ -12,6 +12,7 @@ public class CalculatorTest {
         Calculator calc = new Calculator();
         int input1 = 2;
         int input2 = 2;
+        //comment
         //execute
         int actual = calc.add(input1, input2);
         //test
