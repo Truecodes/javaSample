@@ -13,9 +13,7 @@ public class Calculator {
     public int divide(int i, int j) {
         return i/j;
     }
-    public int divideAgain(int i, int j) {
-        return i/j;
-    }
+
 }
 
 class NonPublicClass {}
