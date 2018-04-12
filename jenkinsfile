@@ -3,6 +3,6 @@ node {
         git url: 'https://github.com/aretae/javaSample.git'
 
     stage('Gradle build') {
-        buildInfo = rtGradle.run rootDir: 'javaSample', buildFile: 'build.gradle', tasks: 'clean build'
+        sh "./gradlew clean build"
     }
 }
