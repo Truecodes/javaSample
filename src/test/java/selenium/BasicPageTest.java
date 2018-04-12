@@ -18,7 +18,7 @@ public class BasicPageTest {
 
     @Test
     public void testThatPageOpens() {
-        String pathToDriver = "c:/drivers/chromedriver.exe";
+        String pathToDriver = "c:/drivers/chromedriver.exe"; // you have to download this
         System.setProperty("webdriver.chrome.driver", pathToDriver);
 
         WebDriver driver = new ChromeDriver();
