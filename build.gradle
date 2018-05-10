@@ -11,7 +11,7 @@ repositories {
     mavenCentral()
 }
 
-build.dependsOn 'pitest'
+// build.dependsOn 'pitest'
 
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
