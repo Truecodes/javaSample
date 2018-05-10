@@ -23,6 +23,7 @@ dependencies {
 
 pitest {
     targetClasses = ["pkg.*"] //by default "${project.group}.*"
+    targetTests = ["pkg.*"]
     threads = 4
     outputFormats = ['XML', 'HTML']
     timestampedReports = false
